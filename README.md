@@ -8,11 +8,11 @@ Este projeto é monitorado pela Entidade Administradora da Conectividade de Esco
 
 ## Qual a proposta do MVP?
 
-Neste trabalho, será desenvolvida uma solução que facilite a identificação de quais escolas foram de fato entregues, sem pendências, dentro do universo de escolas com obras já contratadas.
+Neste trabalho, será desenvolvida uma solução que facilite na identificação de quais escolas foram de fato entregues, sem pendências, dentro do universo de escolas com obras já contratadas.
 
-Cada escola tem a sua particularidade, com isso trabalha com escopo específico. O escopo de cada projeto é dividido em 3 tipos de obras:<br>
-1) Rede Interna<br>
-2) Rede Externa<br>
+Cada escola tem a sua particularidade, com isso trabalha com escopo específico. O escopo de cada projeto é dividido em 3 tipos de obras:
+1) Rede Interna
+2) Rede Externa
 3) Gerador Solar
 
 A questão é analisar se as etapas previstas em cada escola foram concluídas e com isso classificar como Conectada.
@@ -63,4 +63,4 @@ Cruzaremos as bases, utilizando a coluna **PROJETO** como chave, para saber se a
 
 ## Conclusão
 
-Para esta etapa do trabalho, consegui identificar em ambos DataFrames as necessidades de tratamentos/limpeza e respectivas soluções. Em seguida o cruzamento das tabelas foi bem sucedido, e a visualização dos dados satisfatória, demostrando que o Dataset final está pronto para ser utilizado em Machine Learning.
+Para esta etapa do trabalho, conseguimos identificar em ambos DataFrames as necessidades de tratamentos/limpeza e respectivas soluções. Em seguida o cruzamento das tabelas foi bem sucedido, e a visualização dos dados satisfatória, demostrando que o Dataset final está pronto para ser utilizado em Machine Learning.
