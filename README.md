@@ -48,6 +48,9 @@ URLs importadas<br>
 - github_escopo<br>
 'https://raw.githubusercontent.com/dxspimentel/PUC/main/PUC_Db_02_Base_Escopo.csv'
 
+URL do notebook (via colab)
+- 'https://colab.research.google.com/github/dxspimentel/PUC/blob/main/MVP_Aprender_Conectado.ipynb'
+
 ### Classificação
 
 O alvo do trabalho é classificar a Escola como conectada ou não. Para isso a lógica utilizada será, por exemplo:
