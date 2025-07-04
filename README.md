@@ -76,19 +76,19 @@ Valores úncios do dataframe.
 <br><br>
 
 ### df_escopo
-![projetos](img/e01.png)
+![escopo](img/e01.png)
 Somente o atributo "**PROJETO**" é do tipo _int64_. Necessário converte-lo para _object_.
 <br><br>
 
-![projetos](img/e02.png)
-"**DATA_VALIDACA_SALA_TECNICA**" é do tipo _object_. Necessário converte-la para _datatime_. 
+![escopo](img/e02.png)
+"**DATA_VALIDACAO_SALA_TECNICA**" é do tipo _object_. Necessário converte-la para _datatime_. 
 <br><br>
 
-![projetos](img/e03.png)<br>
+![escopo](img/e03.png)<br>
 Dados estatísticos do dataframe.
 <br><br>
 
-![projetos](img/e04.png)<br>
+![escopo](img/e04.png)<br>
 Valores úncios do dataframe. Note que a coluna 'Energia compar' tem 3 valores únicos, porém ela não é necessária para o nosso trabalho e por isso será descartada.
 <br><br>
 
@@ -103,9 +103,31 @@ Após verificações dos 2 dataframes, identifiquei algumas tratativas necessár
 6. Padronização do atributo df_projetos['STATUS_RDO']
 7. Remoção da coluna df_escopo['Energia compart']
 
-<br><br><br>
+<br><br>
 
+![tratamento](img/t01.png)
+Tratamento df_projetos - Parte 1.
+<br><br>
 
+![tratamento](img/t02.png)
+Tratamento df_projetos - Parte 2.
+<br><br>
+
+![tratamento](img/t03.png)
+Tratamento df_escopo - Parte 1.
+<br><br>
+
+![tratamento](img/t04.png)
+Tratamento df_escopo - Parte 2.
+<br><br>
+
+## Cruzamento dos DataFrames
+
+O cruzamento é necessário para comparar o que a escola prevê no escopo (df_escopo) com o que já foi executado de fato (df_projetos).
+
+Vale lembrar que em df_projetos, a evolução das etapas estão em linhas diferentes, ou seja, o mesmo projeto pode ter mais de uma etapa para seguir e cada etapa vai estar em linhas diferentes, com os respectivos STATUS_RDO.
+
+Dito isto, o melhor a se fazer é manter apenas uma linha de cada projeto e criar colunas para identificar os status de cada etapa. Nesse caso, vamos criar colunas com valores binários para apontar o que precisamos em cada etapa (0 = não concluída, 1 = concluída).
 
 
 ## Conclusão
