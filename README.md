@@ -58,6 +58,39 @@ O alvo do trabalho é classificar a Escola como conectada ou não. Para isso a l
 Cruzaremos as bases, utilizando a coluna **PROJETO** como chave, para saber se a escola 567235 tem os 3 serviços concluídos (**STATUS_RDO** = '*Aprovado Sala Técnica*'). Se sim, a escola será classificada como conectada '*Sim*', caso contrário, conectada '*Não*'.
 
 ## Característas dos DataFrames
+### df_projetos
+![projetos](img/p01.png)
+Somente o atributo "**CODCT**" é do tipo _int64_. Necessário converte-lo para _object_.
+<br><br>
+
+![projetos](img/p02.png)
+"**DATA_VALIDACA_SALA_TECNICA**" é do tipo _object_. Necessário converte-la para _datetime_. 
+<br><br>
+
+![projetos](img/p03.png)<br>
+Dados estatísticos do dataframe.
+<br><br>
+
+![projetos](img/p04.png)<br>
+Valores úncios do dataframe.
+<br><br>
+
+### df_escopo
+![projetos](img/e01.png)
+Somente o atributo "**PROJETO**" é do tipo _int64_. Necessário converte-lo para _object_.
+<br><br>
+
+![projetos](img/e02.png)
+"**DATA_VALIDACA_SALA_TECNICA**" é do tipo _object_. Necessário converte-la para _datatime_. 
+<br><br>
+
+![projetos](img/e03.png)<br>
+Dados estatísticos do dataframe.
+<br><br>
+
+![projetos](img/e04.png)<br>
+Valores úncios do dataframe.
+<br><br>
 
 ## Tratamentos aplicados
 
