@@ -89,10 +89,24 @@ Dados estatísticos do dataframe.
 <br><br>
 
 ![projetos](img/e04.png)<br>
-Valores úncios do dataframe.
+Valores úncios do dataframe. Note que a coluna 'Energia compar' tem 3 valores únicos, porém ela não é necessária para o nosso trabalho e por isso será descartada.
 <br><br>
 
 ## Tratamentos aplicados
+Após verificações dos 2 dataframes, identifiquei algumas tratativas necessárias, antes de seguirmos com o trabalho.
+
+1. Conversão da coluna PROJETO para tipo string (object)
+2. Conversão da coluna DATA_VALIDACAO_SALA_TECNICA para tipo datetime
+3. Padronização das colunas de Escopo (Escopo_RE, Escopo_RI, Escopo_GS, Escola Conectada) e conversão para boleano
+4. Conversão da coluna CODCT para tipo string (object)
+5. Padronização do agrupamento na coluna df_projetos['Tipo Obra']
+6. Padronização do atributo df_projetos['STATUS_RDO']
+7. Remoção da coluna df_escopo['Energia compart']
+
+<br><br><br>
+
+
+
 
 ## Conclusão
 
