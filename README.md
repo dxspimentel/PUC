@@ -103,7 +103,7 @@ Após verificações dos 2 dataframes, identifiquei algumas tratativas necessár
 6. Padronização do atributo df_projetos['STATUS_RDO']
 7. Remoção da coluna df_escopo['Energia compart']
 
-<br><br>
+### Checagem dos dados após tratamentos
 
 ![tratamento](img/t01.png)
 Tratamento df_projetos - Parte 1.
@@ -129,6 +129,16 @@ Vale lembrar que em df_projetos, a evolução das etapas estão em linhas difere
 
 Dito isto, o melhor a se fazer é manter apenas uma linha de cada projeto e criar colunas para identificar os status de cada etapa. Nesse caso, vamos criar colunas com valores binários para apontar o que precisamos em cada etapa (0 = não concluída, 1 = concluída).
 
+### Visualização dos dados após cruzamento (merge)
+
+![plot](img/plot01.png)
+<br><br>
+![plot](img/plot02.png)
+<br><br>
+![plot](img/plot03.png)
+<br><br>
+![plot](img/plot04.png)
+<br><br>
 
 ## Conclusão
 
